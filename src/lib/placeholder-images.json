@@ -1,0 +1,58 @@
+{
+  "placeholderImages": [
+    {
+      "id": "app_logo",
+      "description": "Logo de bloomWe",
+      "imageUrl": "https://images.unsplash.com/photo-1631880268373-18c7749f34c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHx3ZWxsbmVzcyUyMGxvZ298ZW58MHx8fHwxNzcwMjI1MDQ0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "wellness logo"
+    },
+    {
+      "id": "user_avatar",
+      "description": "Avatar de usuario por defecto",
+      "imageUrl": "https://images.unsplash.com/photo-1543269664-56d93c1b41a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxoYXBweSUyMHBlcnNvbnxlbnwwfHx8fDE3NzAxODA2NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy person"
+    },
+    {
+      "id": "expert_1",
+      "description": "Dr. Carlos Castro",
+      "imageUrl": "https://res.cloudinary.com/dwoyltoyd/image/upload/v1770523408/76044a1e-e275-4988-8990-45b519617d96_tjlxx5.jpg",
+      "imageHint": "doctor male"
+    },
+    {
+      "id": "expert_2",
+      "description": "Dra. Elena Castiblanco",
+      "imageUrl": "https://res.cloudinary.com/dwoyltoyd/image/upload/v1770322799/01167078-9403-45fe-88f0-47e23a9abe8b.png",
+      "imageHint": "doctor female"
+    },
+    {
+      "id": "expert_3",
+      "description": "Dr. Ricardo Gómez",
+      "imageUrl": "https://res.cloudinary.com/dwoyltoyd/image/upload/v1770322763/f53d1073-a2b2-4169-a987-0029f6569ae2.png",
+      "imageHint": "psychologist male"
+    },
+    {
+      "id": "expert_4",
+      "description": "Dra. Camila Velez",
+      "imageUrl": "https://res.cloudinary.com/dwoyltoyd/image/upload/v1770322679/b4ad95ce-e7dc-40f4-b3c2-ee28ce9e9e53.png",
+      "imageHint": "psychologist female"
+    },
+    {
+      "id": "expert_5",
+      "description": "Dra. Sofía Mendez",
+      "imageUrl": "https://res.cloudinary.com/dwoyltoyd/image/upload/v1770322650/efbadf20-6ab5-452a-9490-1e36ef7f9420.png",
+      "imageHint": "nutritionist female"
+    },
+    {
+      "id": "expert_6",
+      "description": "Dr. Andrés Pardo",
+      "imageUrl": "https://res.cloudinary.com/dwoyltoyd/image/upload/v1770322644/6cf77b39-6200-498d-a8cc-cac2a3063730.png",
+      "imageHint": "nutritionist male"
+    },
+    {
+      "id": "google_maps_placeholder",
+      "description": "Mapa de ubicación estilo Google Maps",
+      "imageUrl": "https://res.cloudinary.com/dwoyltoyd/image/upload/v1770322532/0c37f40a-2fc0-4cb4-bb5a-4faa8a61f711.png",
+      "imageHint": "google maps"
+    }
+  ]
+}

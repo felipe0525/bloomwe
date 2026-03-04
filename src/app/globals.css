@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 180 60% 98%;
+    --foreground: 180 80% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 180 80% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 180 80% 10%;
+    --primary: 180 77% 40%;
+    --primary-foreground: 180 10% 98%;
+    --secondary: 180 60% 86%;
+    --secondary-foreground: 180 80% 15%;
+    --muted: 180 30% 92%;
+    --muted-foreground: 180 20% 40%;
+    --accent: 180 60% 63%;
+    --accent-foreground: 180 10% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 180 20% 88%;
+    --input: 180 20% 88%;
+    --ring: 180 77% 40%;
+    --radius: 1rem;
+    --chart-1: 180 77% 40%;
+    --chart-2: 180 50% 60%;
+    --chart-3: 160 60% 45%;
+    --chart-4: 190 70% 50%;
+    --chart-5: 200 80% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  /* Ocultar scrollbars globalmente */
+  * {
+    -ms-overflow-style: none;  /* Internet Explorer y Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  *::-webkit-scrollbar {
+    display: none; /* Chrome, Safari y Opera */
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.mobile-container {
+  @apply mx-auto max-w-md min-h-screen bg-background relative flex flex-col shadow-xl;
+}
+
+.glass-morphism {
+  @apply bg-white/70 backdrop-blur-md border border-white/20;
+}
+
+.tab-bar-shadow {
+  box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Utilidad adicional para asegurar que no haya scrollbars */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
